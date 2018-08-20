@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Css masonry</title>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <style>
+            @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600);
+            body {
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 18px;
+                line-height: 26px;
+                color: #6b6b6b;
+                background-color: #efefef;
+            }
+
+            .grid-container {
+                -webkit-column-gap: 16px;
+                column-gap: 16px;
+                margin: 8px 16px;
+            }
+            @media only screen and (max-width: 480px) {
+                .grid-container {
+                    -webkit-column-count: 1;
+                    column-count: 1;
+                }
+            }
+            @media only screen and (min-width: 481px) and (max-width: 620px) {
+                .grid-container {
+                    -webkit-column-count: 2;
+                    column-count: 2;
+                }
+            }
+            @media only screen and (min-width: 621px) and (max-width: 1023px) {
+                .grid-container {
+                    -webkit-column-count: 3;
+                    column-count: 3;
+                }
+            }
+            @media only screen and (min-width: 1024px) {
+                .grid-container {
+                    -webkit-column-count: 4;
+                    column-count: 4;
+                }
+            }
+            .grid-container .item {
+                background-color: #fff;
+                margin: 8px 0;
+                padding: 21px;
+                display: inline-block;
+                box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+            }
+
+        </style>
+
+
+        <div class="grid-container">
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias repellendus commodi architecto fugit ad accusantium rerum libero atque, ipsa, quaerat, aperiam amet mollitia excepturi inventore praesentium dolor perferendis, voluptas similique pariatur eius neque. Est.</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sit cum ut. Nam eveniet corrupti inventore?</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, veritatis praesentium deserunt deleniti. Ratione modi architecto illo pariatur, quaerat eveniet nam sit error cupiditate vel quisquam sequi totam natus hic iusto fugiat rerum culpa asperiores reiciendis assumenda, iure perspiciatis perferendis. Quas corporis id porro ab autem fuga deleniti maxime ducimus officiis ipsa, iste, repellat corrupti dolore perferendis saepe consectetur, expedita laborum placeat. Explicabo commodi expedita iusto, eius voluptas quam provident, aliquam optio. Autem quis necessitatibus tempora quia aperiam.</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam doloremque temporibus quos, enim sapiente, error delectus perspiciatis minima! Corporis tempora officia rerum vitae sint deserunt unde, nisi pariatur cupiditate! Cumque laboriosam, nihil vero reiciendis.</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa officia, repellat, aut delectus sit consectetur quas molestiae iure beatae optio dignissimos reiciendis enim.</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, laboriosam placeat aut reprehenderit! Aliquam nostrum quia, eaque fugiat veritatis, natus dolores esse necessitatibus quis, enim odit molestiae, iusto et neque vel itaque! Debitis ea perferendis quae excepturi, autem atque minus, maiores. Harum voluptate ea suscipit, nihil explicabo distinctio tenetur beatae sint unde dolorum minus nobis odio provident culpa natus eos ipsum architecto ad dignissimos magnam fugit aliquam, similique illum! Natus suscipit, atque, alias voluptatibus sint illum delectus consectetur harum quisquam. Pariatur explicabo dicta, tempore ad? Nulla dignissimos beatae, quisquam tempore quae ullam. Inventore exercitationem amet doloribus quis perferendis necessitatibus magni debitis aliquid, rerum fugiat. Natus.</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure error praesentium sed neque at ipsam rem in veniam id delectus perferendis quasi vero cumque veritatis architecto expedita atque, perspiciatis accusantium dignissimos non nihil odit. Vero maxime numquam necessitatibus amet aliquam dolorum dolor soluta!</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt quia quo, quibusdam.</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ipsam expedita beatae adipisci saepe labore, obcaecati praesentium laudantium sit minima veritatis consectetur possimus vero!</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quibusdam facere, quod saepe modi sint aut repellendus assumenda, possimus dolores eum odit amet nihil. Deleniti et, quam fugit vel ipsum, consectetur laboriosam!</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur commodi itaque blanditiis, sunt, velit eveniet, aperiam facilis quas corporis ipsam accusamus distinctio est soluta, accusantium ipsa dolore perferendis quod modi voluptatem nobis fuga corrupti! Maiores aperiam sapiente alias neque mollitia. Minima dolor et, sint molestias tempore praesentium nemo facilis labore incidunt, est aliquam voluptas aperiam, ducimus cumque? Perferendis porro at illo ut nobis nam recusandae maiores expedita asperiores. Deleniti nam autem fuga tenetur vel, hic omnis, ad, sed earum ea ullam, asperiores maiores libero dolore. Voluptas cumque, similique. Maxime, dicta iste quasi. Optio quaerat, odit odio magni! Consequuntur nesciunt explicabo recusandae in ipsam alias, expedita a! Veniam, similique sed illo. Magni repellat, possimus maiores ea nulla cum saepe suscipit velit!</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel unde, saepe eos non libero illum nobis facere laboriosam eaque hic tempore, possimus quo quas.</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias repellendus commodi architecto fugit ad accusantium rerum libero atque, ipsa, quaerat, aperiam amet mollitia excepturi inventore praesentium dolor perferendis, voluptas similique pariatur eius neque. Est.</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sit cum ut. Nam eveniet corrupti inventore?</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, veritatis praesentium deserunt deleniti. Ratione modi architecto illo pariatur, quaerat eveniet nam sit error cupiditate vel quisquam sequi totam natus hic iusto fugiat rerum culpa asperiores reiciendis assumenda, iure perspiciatis perferendis. Quas corporis id porro ab autem fuga deleniti maxime ducimus officiis ipsa, iste, repellat corrupti dolore perferendis saepe consectetur, expedita laborum placeat. Explicabo commodi expedita iusto, eius voluptas quam provident, aliquam optio. Autem quis necessitatibus tempora quia aperiam.</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam doloremque temporibus quos, enim sapiente, error delectus perspiciatis minima! Corporis tempora officia rerum vitae sint deserunt unde, nisi pariatur cupiditate! Cumque laboriosam, nihil vero reiciendis.</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa officia, repellat, aut delectus sit consectetur quas molestiae iure beatae optio dignissimos reiciendis enim.</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, laboriosam placeat aut reprehenderit! Aliquam nostrum quia, eaque fugiat veritatis, natus dolores esse necessitatibus quis, enim odit molestiae, iusto et neque vel itaque! Debitis ea perferendis quae excepturi, autem atque minus, maiores. Harum voluptate ea suscipit, nihil explicabo distinctio tenetur beatae sint unde dolorum minus nobis odio provident culpa natus eos ipsum architecto ad dignissimos magnam fugit aliquam, similique illum! Natus suscipit, atque, alias voluptatibus sint illum delectus consectetur harum quisquam. Pariatur explicabo dicta, tempore ad? Nulla dignissimos beatae, quisquam tempore quae ullam. Inventore exercitationem amet doloribus quis perferendis necessitatibus magni debitis aliquid, rerum fugiat. Natus.</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure error praesentium sed neque at ipsam rem in veniam id delectus perferendis quasi vero cumque veritatis architecto expedita atque, perspiciatis accusantium dignissimos non nihil odit. Vero maxime numquam necessitatibus amet aliquam dolorum dolor soluta!</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt quia quo, quibusdam.</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ipsam expedita beatae adipisci saepe labore, obcaecati praesentium laudantium sit minima veritatis consectetur possimus vero!</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quibusdam facere, quod saepe modi sint aut repellendus assumenda, possimus dolores eum odit amet nihil. Deleniti et, quam fugit vel ipsum, consectetur laboriosam!</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur commodi itaque blanditiis, sunt, velit eveniet, aperiam facilis quas corporis ipsam accusamus distinctio est soluta, accusantium ipsa dolore perferendis quod modi voluptatem nobis fuga corrupti! Maiores aperiam sapiente alias neque mollitia. Minima dolor et, sint molestias tempore praesentium nemo facilis labore incidunt, est aliquam voluptas aperiam, ducimus cumque? Perferendis porro at illo ut nobis nam recusandae maiores expedita asperiores. Deleniti nam autem fuga tenetur vel, hic omnis, ad, sed earum ea ullam, asperiores maiores libero dolore. Voluptas cumque, similique. Maxime, dicta iste quasi. Optio quaerat, odit odio magni! Consequuntur nesciunt explicabo recusandae in ipsam alias, expedita a! Veniam, similique sed illo. Magni repellat, possimus maiores ea nulla cum saepe suscipit velit!</div>
+            <div class="item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel unde, saepe eos non libero illum nobis facere laboriosam eaque hic tempore, possimus quo quas.</div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
